@@ -4,14 +4,14 @@
 
 <main class="mb-12">
 	<section
-		class="md:flex bg-gray-100 w-screen bg-cover bg-center bg-no-repeat py-12"
+		class="md:flex justify-between items-center bg-gray-100 w-screen bg-cover bg-center bg-no-repeat py-12"
 		style="background-image: url('https://img.freepik.com/free-photo/close-up-colorful-smoky-abstract_53876-148112.jpg?semt=ais_hybrid&w=740&q=80');"
 	>
-		<div>
+		<div class="justify-center items-center flex">
 			<img
 				src="https://uniuyo.edu.ng/evoting/images/logonobg.png"
 				alt="University badge icon"
-				class="logo sm:hidden mt-4"
+				class="logo sm:hidden mt-4 h-[250px]"
 			/>
 		</div>
 		<div class="flex flex-col lg:p-32 p-4 gap-4">
