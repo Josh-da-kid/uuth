@@ -19,7 +19,7 @@
 	>
 
 	<!-- Desktop navigation -->
-	<div class="hidden sm:flex items-center space-x-4">
+	<div class="hidden lg:flex items-center space-x-4">
 		<ul class="flex nav-links space-x-5 font-semibold sm:text-xl">
 			<li>
 				<a
@@ -63,15 +63,15 @@
 			</li>
 		</ul>
 	</div>
-	<div class="hidden sm:flex font-semibold text-gray-500 gap-2 items-center sm:text-xl">
+	<div class="hidden lg:flex font-semibold text-gray-500 gap-2 items-center sm:text-xl">
 		<button>Log In</button>
 		<button class="bg-red-700 p-4 text-white">Sign Up</button>
 	</div>
 
 	<!-- Mobile menu button -->
-	<div class="sm:hidden">
+	<div class="lg:hidden">
 		<button on:click={toggleMenu} class="text-gray-500 hover:text-gray-700 focus:outline-none">
-			<svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+			<svg class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 				{#if isMenuOpen}
 					<path
 						stroke-linecap="round"
@@ -93,7 +93,7 @@
 
 	<!-- Mobile menu -->
 	{#if isMenuOpen}
-		<div class="sm:hidden absolute top-16 left-0 right-0 bg-white shadow-md z-10">
+		<div class="lg:hidden absolute top-16 left-0 right-0 bg-white shadow-md z-10">
 			<ul class="flex flex-col items-center space-y-2 p-4">
 				<li>
 					<a
