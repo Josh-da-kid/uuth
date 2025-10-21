@@ -7,10 +7,10 @@
 
 <main class="mb-12 bg-gray-100">
 	<section
-		class="md:flex justify-between items-center bg-gray-100 w-screen bg-cover bg-center bg-no-repeat py-12"
+		class="md:flex justify-evenly items-center bg-gray-100 w-screen bg-cover bg-center bg-no-repeat py-12"
 		style="background-image: url('https://img.freepik.com/free-photo/close-up-colorful-smoky-abstract_53876-148112.jpg?semt=ais_hybrid&w=740&q=80');"
 	>
-		<div class="justify-center items-center flex">
+		<div class="sm:hidden justify-center items-center flex px-4">
 			<img
 				src="https://uniuyo.edu.ng/evoting/images/logonobg.png"
 				alt="University badge icon"
