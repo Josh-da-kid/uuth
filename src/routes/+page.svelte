@@ -55,7 +55,9 @@
 
 	<!-- Information Desk Section -->
 	<section class="bg-white py-16 text-center">
-		<h3 class="text-gray-600 text-sm font-medium">Blog <span class="text-red-700">Centre</span></h3>
+		<h3 class="sm:text-lg text-gray-600 text-sm font-medium">
+			Blog <span class="text-red-700">Centre</span>
+		</h3>
 		<h2 class="text-2xl sm:text-3xl font-semibold mt-2 mb-10">Information Desk</h2>
 
 		<div class="grid md:grid-cols-3 gap-6 justify-center px-4 lg:px-20">
@@ -87,7 +89,7 @@
 
 	<!-- Services Section -->
 	<section class="py-16 bg-gray-50 text-center">
-		<h3 class="text-gray-600 text-sm font-medium">
+		<h3 class="sm:text-lg text-gray-600 text-sm font-medium">
 			Service <span class="text-red-700">Centre</span>
 		</h3>
 		<h2 class="text-2xl sm:text-3xl font-semibold mt-2 mb-10">What service do you need today?</h2>
