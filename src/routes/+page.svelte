@@ -42,7 +42,7 @@
 	</section>
 
 	<section class="text-center items-center justify-center flex flex-col p-4 py-12">
-		<h2 class="font-semibold lg:w-[500px]">University of Uyo(UUTH) IDID Services Center</h2>
+		<h2 class="font-semibold lg:w-[500px]">University of Uyo (UUTH) IDID Services Center</h2>
 		<p class="text-gray-500 text-break-words lg:w-[685px] mt-5 text-xl">
 			At the UUTH IDID Services Centre, we transform healthcare administration through innovative
 			digital solutions. As Nigeria’s leading teaching hospital, UUTH leverages cutting-edge
