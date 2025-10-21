@@ -1,5 +1,8 @@
 <script>
 	import { Button } from 'carbon-components-svelte';
+
+	/** @type {import('./$types').PageData} */
+	let { data } = $props();
 </script>
 
 <main class="mb-12 bg-gray-100">
@@ -56,54 +59,27 @@
 		<h2 class="text-2xl sm:text-3xl font-semibold mt-2 mb-10">Information Desk</h2>
 
 		<div class="grid md:grid-cols-3 gap-6 justify-center px-4 lg:px-20">
-			<!-- Blog Card 1 -->
-			<div class="bg-gray-50 rounded-lg shadow-sm p-4 text-left">
-				<img
-					src="https://images.pexels.com/photos/1181358/pexels-photo-1181358.jpeg?auto=compress&cs=tinysrgb&w=600"
-					alt="CMD Office update"
-					class="rounded-md mb-4 md:h-[230px]"
-				/>
-				<h4 class="font-semibold text-gray-800 sm:text-2xl">CMD Office: New Policy Updates.</h4>
-				<p class="text-gray-500 mt-2 sm:text-xl">
-					Important policy changes from the Chief Medical Director’s office regarding patient care
-					protocols and staff guidelines.
-				</p>
-				<a href="#" class="text-red-600 sm:text-lg mt-2 inline-block hover:underline">Read More</a>
-			</div>
-
-			<!-- Blog Card 2 -->
-			<div class="bg-gray-50 rounded-lg shadow-sm p-4 text-left">
-				<img
-					src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=600"
-					alt="ICT Maintenance"
-					class="rounded-md mb-4 md:h-[230px]"
-				/>
-				<h4 class="font-semibold text-gray-800 sm:text-2xl">ICT: System Maintenance Notice</h4>
-				<p class="text-gray-500 sm:text-xl mt-2">
-					Scheduled maintenance of hospital information systems. Electronic health records will be
-					temporarily unavailable.
-				</p>
-				<a href="#" class="text-red-600 sm:text-lg mt-2 inline-block hover:underline">Read More</a>
-			</div>
-
-			<!-- Blog Card 3 -->
-			<div class="bg-gray-50 rounded-lg shadow-sm p-4 text-left">
-				<img
-					src="https://images.pexels.com/photos/3183171/pexels-photo-3183171.jpeg?auto=compress&cs=tinysrgb&w=600"
-					alt="HR Staff Training"
-					class="rounded-md mb-4 md:h-[230px]"
-				/>
-				<h4 class="font-semibold text-gray-800 sm:text-2xl">HR: Staff Training Program</h4>
-				<p class="text-gray-500 sm:text-xl mt-2">
-					Mandatory training sessions for all clinical and non-clinical staff. Registration
-					deadlines and schedules inside.
-				</p>
-				<a href="#" class="text-red-600 sm:text-lg mt-2 inline-block hover:underline">Read More</a>
-			</div>
+			{#each data.posts as post}
+				<div class="bg-gray-50 rounded-lg shadow-sm p-4 text-left">
+					<img
+						src={post.image}
+						alt={post.alt}
+						class="rounded-md mb-4 w-full object-cover md:h-[230px]"
+					/>
+					<h4 class="font-semibold text-gray-800 sm:text-2xl">{post.title}</h4>
+					<p class="text-gray-500 mt-2 sm:text-xl">
+						{post.excerpt}
+					</p>
+					<a
+						href={`/info/${post.slug}`}
+						class="text-red-600 sm:text-lg mt-2 inline-block hover:underline">Read More</a
+					>
+				</div>
+			{/each}
 		</div>
 
 		<a
-			href="#"
+			href="/info"
 			class="mt-8 underline sm:text-lg font-semibold inline-block text-sm text-gray-600 hover:text-red-600"
 			>See More</a
 		>
