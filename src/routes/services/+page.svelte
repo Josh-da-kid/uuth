@@ -14,7 +14,7 @@
 				class="logo sm:hidden mt-4 h-[250px]"
 			/>
 		</div>
-		<div class="flex flex-col lg:p-32 p-4 gap-4">
+		<div class="flex flex-col p-4 gap-4">
 			<h1 class="font-semibold lg:w-[400px]">
 				Our <span class="text-red-700">Services</span>
 			</h1>
