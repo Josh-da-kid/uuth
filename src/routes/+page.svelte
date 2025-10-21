@@ -19,7 +19,7 @@
 				UUTH <span class="text-red-700">IDID</span> Services
 				<span class="text-red-700">Center</span>
 			</h1>
-			<p class="text-gray-500 text-break-words lg:w-[520px]">
+			<p class="text-gray-500 text-xl text-break-words lg:w-[520px]">
 				The Intelligent Digital Identity Services (IDIS) modernizes patient identification and staff
 				authentication at UCTH using advanced digital technologies, positioning the hospital as a
 				healthcare innovation leader in Nigeria.
@@ -40,7 +40,7 @@
 
 	<section class="text-center items-center justify-center flex flex-col p-4 py-12">
 		<h2 class="font-semibold lg:w-[500px]">University of Uyo(UUTH) IDID Services Center</h2>
-		<p class="text-gray-500 text-break-words lg:w-[685px] mt-5">
+		<p class="text-gray-500 text-break-words lg:w-[685px] mt-5 text-xl">
 			At the UUTH IDID Services Centre, we transform healthcare administration through innovative
 			digital solutions. As Nigeria’s leading teaching hospital, UUTH leverages cutting-edge
 			technology to create a unified digital ecosystem where healthcare professionals,
@@ -53,7 +53,7 @@
 	<!-- Information Desk Section -->
 	<section class="bg-white py-16 text-center">
 		<h3 class="text-gray-600 text-sm font-medium">Blog <span class="text-red-700">Centre</span></h3>
-		<h2 class="text-2xl font-semibold mt-2 mb-10">Information Desk</h2>
+		<h2 class="text-2xl sm:text-3xl font-semibold mt-2 mb-10">Information Desk</h2>
 
 		<div class="grid md:grid-cols-3 gap-6 justify-center px-4 lg:px-20">
 			<!-- Blog Card 1 -->
@@ -63,12 +63,12 @@
 					alt="CMD Office update"
 					class="rounded-md mb-4 md:h-[230px]"
 				/>
-				<h4 class="font-semibold text-gray-800 text-sm">CMD Office: New Policy Updates.</h4>
-				<p class="text-gray-500 text-sm mt-2">
+				<h4 class="font-semibold text-gray-800 sm:text-2xl">CMD Office: New Policy Updates.</h4>
+				<p class="text-gray-500 mt-2 sm:text-xl">
 					Important policy changes from the Chief Medical Director’s office regarding patient care
 					protocols and staff guidelines.
 				</p>
-				<a href="#" class="text-red-600 text-sm mt-2 inline-block hover:underline">Read More</a>
+				<a href="#" class="text-red-600 sm:text-lg mt-2 inline-block hover:underline">Read More</a>
 			</div>
 
 			<!-- Blog Card 2 -->
@@ -78,12 +78,12 @@
 					alt="ICT Maintenance"
 					class="rounded-md mb-4 md:h-[230px]"
 				/>
-				<h4 class="font-semibold text-gray-800 text-sm">ICT: System Maintenance Notice</h4>
-				<p class="text-gray-500 text-sm mt-2">
+				<h4 class="font-semibold text-gray-800 sm:text-2xl">ICT: System Maintenance Notice</h4>
+				<p class="text-gray-500 sm:text-xl mt-2">
 					Scheduled maintenance of hospital information systems. Electronic health records will be
 					temporarily unavailable.
 				</p>
-				<a href="#" class="text-red-600 text-sm mt-2 inline-block hover:underline">Read More</a>
+				<a href="#" class="text-red-600 sm:text-lg mt-2 inline-block hover:underline">Read More</a>
 			</div>
 
 			<!-- Blog Card 3 -->
@@ -93,18 +93,18 @@
 					alt="HR Staff Training"
 					class="rounded-md mb-4 md:h-[230px]"
 				/>
-				<h4 class="font-semibold text-gray-800 text-sm">HR: Staff Training Program</h4>
-				<p class="text-gray-500 text-sm mt-2">
+				<h4 class="font-semibold text-gray-800 sm:text-2xl">HR: Staff Training Program</h4>
+				<p class="text-gray-500 sm:text-xl mt-2">
 					Mandatory training sessions for all clinical and non-clinical staff. Registration
 					deadlines and schedules inside.
 				</p>
-				<a href="#" class="text-red-600 text-sm mt-2 inline-block hover:underline">Read More</a>
+				<a href="#" class="text-red-600 sm:text-lg mt-2 inline-block hover:underline">Read More</a>
 			</div>
 		</div>
 
 		<a
 			href="#"
-			class="mt-8 underline font-semibold inline-block text-sm text-gray-600 hover:text-red-600"
+			class="mt-8 underline sm:text-lg font-semibold inline-block text-sm text-gray-600 hover:text-red-600"
 			>See More</a
 		>
 	</section>
@@ -114,9 +114,9 @@
 		<h3 class="text-gray-600 text-sm font-medium">
 			Service <span class="text-red-700">Centre</span>
 		</h3>
-		<h2 class="text-2xl font-semibold mt-2 mb-10">What service do you need today?</h2>
+		<h2 class="text-2xl sm:text-3xl font-semibold mt-2 mb-10">What service do you need today?</h2>
 
-		<p class="text-gray-500 max-w-2xl mx-auto mb-10 text-sm">
+		<p class="text-gray-500 max-w-2xl mx-auto mb-10 text-sm sm:text-xl">
 			Access our comprehensive digital services designed to streamline your hospital experience.
 			Choose from our range of secure, efficient, and user-friendly solutions.
 		</p>
@@ -150,11 +150,11 @@
 				<h3 class="font-semibold text-2xl mb-2 flex text-center mx-auto justify-center">
 					Identity & Access
 				</h3>
-				<p class="text-gray-500 text-sm">Digital identity and access management</p>
+				<p class="text-gray-500 text-sm sm:text-xl">Digital identity and access management</p>
 
-				<h6 class="mt-4 text-gray-500">Services:</h6>
+				<h6 class="mt-4 text-gray-500 sm:text-xl">Services:</h6>
 				<div class="flex flex-col items-center justify-center text-gray-500 mt-1 gap-1">
-					<div class="flex flex-col space-y-2 text-start">
+					<div class="sm:text-lg flex flex-col space-y-2 text-start">
 						<li>Personnel IDID</li>
 						<li>SmartHealth IDID</li>
 						<li>BAAMS(Biometrics)</li>
@@ -164,7 +164,7 @@
 
 				<div class="mt-4">
 					<a href="/digital-identity">
-						<button class="bg-white p-3 text-red-700"
+						<button class="sm:text-lg bg-white p-3 text-red-700"
 							>Get Started <span class="font-semibold">&gt&gt</span></button
 						></a
 					>
@@ -203,14 +203,14 @@
 				<h3 class="font-semibold text-2xl mb-2 flex text-center mx-auto justify-center">
 					Financial Services
 				</h3>
-				<p class="text-gray-500 text-sm">
+				<p class="text-gray-500 text-sm sm:text-xl">
 					Manage staff salaries and hospital payments with PayQue — including payslips and salary
 					tracking.
 				</p>
 
-				<h6 class="mt-4 text-gray-500">PayIQue System:</h6>
+				<h6 class="mt-4 text-gray-500 sm:text-xl">PayIQue System:</h6>
 				<div class="flex flex-col items-center justify-center text-gray-500 mt-1 gap-1">
-					<div class="flex flex-col space-y-2 text-start">
+					<div class="sm:text-lg flex flex-col space-y-2 text-start">
 						<li>Salary Tracking</li>
 						<li>Payslips</li>
 						<li>Payment Managements</li>
@@ -219,7 +219,7 @@
 
 				<div class="mt-4">
 					<a href="/financial-services">
-						<button class="bg-white p-3 text-red-700"
+						<button class="sm:text-lg bg-white p-3 text-red-700"
 							>Access PayIQueue <span class="font-semibold">&gt&gt</span></button
 						></a
 					>
@@ -246,20 +246,20 @@
 				<h3 class="font-semibold text-2xl mb-2 flex text-center mx-auto justify-center">
 					Communication Hub
 				</h3>
-				<p class="text-gray-500 text-sm">
+				<p class="sm:text-xl text-gray-500 text-sm">
 					Internal messaging and feedback systems powered by UUTH Messenger and iReport.
 				</p>
 
-				<h6 class="mt-4 text-gray-500">Features:</h6>
+				<h6 class="sm:text-xl mt-4 text-gray-500">Features:</h6>
 				<div class="flex flex-col items-center justify-center text-gray-500 mt-1 gap-1">
-					<div class="flex flex-col space-y-2 text-start">
+					<div class="sm:text-lg flex flex-col space-y-2 text-start">
 						<li>UCTH Messenger</li>
 						<li>iReport Feedback System</li>
 					</div>
 				</div>
 
 				<div class="mt-4">
-					<button class="bg-white p-3 text-red-700"
+					<button class="sm:text-lg bg-white p-3 text-red-700"
 						>Connect Now <span class="font-semibold">&gt&gt</span></button
 					>
 				</div>
@@ -294,14 +294,14 @@
 				<h3 class="font-semibold text-2xl mb-2 flex text-center mx-auto justify-center">
 					Clinical & Operations
 				</h3>
-				<p class="text-gray-500 text-sm">
+				<p class="sm:text-xl text-gray-500 text-sm">
 					Optimized tools for hospital operations and clinical systems — ClinQx, EziBiz, iScheduler,
 					and more.
 				</p>
 
-				<h6 class="mt-4 text-gray-500">Platforms:</h6>
+				<h6 class="mt-4 text-gray-500 sm:text-xl">Platforms:</h6>
 				<div class="flex flex-col items-center justify-center text-gray-500 mt-1 gap-1">
-					<div class="flex flex-col space-y-2 text-start">
+					<div class="sm:text-lg flex flex-col space-y-2 text-start">
 						<li>ClinIQx</li>
 						<li>EziBiz</li>
 						<li>iScheduler</li>
@@ -311,7 +311,7 @@
 				</div>
 
 				<div class="mt-4">
-					<button class="bg-white p-3 text-red-700"
+					<button class="  bg-white p-3 text-red-700"
 						>Get Started <span class="font-semibold">&gt&gt</span></button
 					>
 				</div>
@@ -341,8 +341,8 @@
 					></svg
 				>
 			</div>
-			<h3 class="font-semibold text-lg mb-2">Connect with YOUreka</h3>
-			<p class="text-gray-500 text-sm mb-4">
+			<h3 class="font-semibold sm:text-xl text-lg mb-2">Connect with YOUreka</h3>
+			<p class="sm:text-xl text-gray-500 text-sm mb-4">
 				Establish a secure YOUreka integrated single-sign-on system for seamless access to all
 				services through one account.
 			</p>

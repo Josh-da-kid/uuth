@@ -11,7 +11,7 @@
 		<h1 class="text-3xl md:text-4xl font-bold text-gray-900">
 			News / <span class="text-red-700">Updates</span>
 		</h1>
-		<p class="text-gray-500 mt-3 max-w-2xl mx-auto px-4">
+		<p class="sm:text-xl text-gray-500 mt-3 max-w-2xl mx-auto px-4">
 			Stay updated with the latest news, announcements, and policy changes from UUTH.
 		</p>
 	</section>
@@ -23,8 +23,8 @@
 				<img src={post.image} alt={post.alt} class="w-full h-56 object-cover" />
 				<div class="p-6">
 					<p class="text-sm text-gray-400 mb-2">{post.date}</p>
-					<h3 class="font-semibold text-gray-800 text-lg">{post.title}</h3>
-					<p class="text-gray-500 text-sm mt-2">
+					<h3 class="font-semibold text-gray-800 sm:text-xl text-lg">{post.title}</h3>
+					<p class="text-gray-500 text-sm mt-2 sm:text-lg">
 						{post.excerpt}
 					</p>
 					<a

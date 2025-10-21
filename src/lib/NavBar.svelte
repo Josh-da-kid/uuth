@@ -12,7 +12,7 @@
 	<a href="/"
 		><div class="flex items-center gap-2">
 			<img src="/logonobg.png" alt="UUTH logo" class="logo h-12 w-12" />
-			<div class="font-semibold text-black">
+			<div class="font-semibold text-black sm:text-xl">
 				UUTH <span class="text-red-700">IDID Service</span>
 			</div>
 		</div></a
@@ -20,7 +20,7 @@
 
 	<!-- Desktop navigation -->
 	<div class="hidden sm:flex items-center space-x-4">
-		<ul class="flex nav-links space-x-5 font-semibold">
+		<ul class="flex nav-links space-x-5 font-semibold sm:text-xl">
 			<li>
 				<a
 					href="/"
@@ -63,7 +63,7 @@
 			</li>
 		</ul>
 	</div>
-	<div class="hidden sm:flex font-semibold text-gray-500 gap-2 items-center">
+	<div class="hidden sm:flex font-semibold text-gray-500 gap-2 items-center sm:text-xl">
 		<button>Log In</button>
 		<button class="bg-red-700 p-4 text-white">Sign Up</button>
 	</div>

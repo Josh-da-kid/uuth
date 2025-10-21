@@ -5,7 +5,7 @@
 <main class="flex flex-col text-center bg-gray-100">
 	<section class="flex flex-col mt-12 items-center justify-center mb-12">
 		<h1 class="font-semibold">Contact us</h1>
-		<p class="text-gray-500 text-break-words lg:w-[520px] mt-5">
+		<p class="sm:text-xl text-gray-500 text-break-words lg:w-[520px] mt-5">
 			We'd love to hear from you! Whether you have questions, feedback, or want to collaborate, our
 			team is ready to connect with you and discuss how UUTH can serve you better.
 		</p>
@@ -25,7 +25,7 @@
 				>
 				<div>
 					<h4 class="font-semibold">Call us</h4>
-					<ul class="mt-4 flex flex-col gap-2 text-gray-500">
+					<ul class="sm:text-lg mt-4 flex flex-col gap-2 text-gray-500">
 						<li>+234-801-234-5678</li>
 						<li>+234-802-345-6789</li>
 					</ul>

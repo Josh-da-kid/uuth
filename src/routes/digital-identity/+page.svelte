@@ -7,7 +7,7 @@
 	style="background-image: url('https://img.freepik.com/free-photo/close-up-colorful-smoky-abstract_53876-148112.jpg?semt=ais_hybrid&w=740&q=80');"
 >
 	<h1 class="font-semibold">Identity <span class="text-red-700">& Access</span></h1>
-	<p class="text-gray-500 text-break-words lg:w-[520px]">
+	<p class="sm:text-xl text-gray-500 text-break-words lg:w-[520px]">
 		Streamlined Payment and salary management solutions for UCTH. Access PayIQue for salary tracking
 		and payslips, or make secure Id card payments through our integrated system.
 	</p>
@@ -41,15 +41,17 @@
 				>
 				<h2 class="font-medium text-2xl">Create Staff Account</h2>
 			</div>
-			<p>
+			<p class="sm:text-lg">
 				Register for an new UUTH digital identity through our whatsapp bot. Quick, secure, and
 				automated account creation.
 			</p>
 			<h4 class="font-medium text-xl ml-2">What You'll Get:</h4>
 
-			<li>Personnel IDID Registration</li>
-			<li>Digital Payslips</li>
-			<li>Transaction History</li>
+			<div class="flex flex-col gap-3 text-lg">
+				<li>Personnel IDID Registration</li>
+				<li>Digital Payslips</li>
+				<li>Transaction History</li>
+			</div>
 
 			<div class="items-center justify-center flex">
 				<Button>Create Via whatsapp</Button>
@@ -82,15 +84,17 @@
 				>
 				<h2 class="font-medium text-2xl">Modify Account</h2>
 			</div>
-			<p>
+			<p class="sm:text-lg">
 				Update your existing UUTH digital identity information quickly and securely through
 				Whatsapp.
 			</p>
 			<h4 class="font-medium text-xl ml-2">Modification Options:</h4>
 
-			<li>Update Personnel Information</li>
-			<li>Change Contact Details</li>
-			<li>Update Department Info</li>
+			<div class="flex flex-col gap-3 text-lg">
+				<li>Update Personnel Information</li>
+				<li>Change Contact Details</li>
+				<li>Update Department Info</li>
+			</div>
 
 			<div class="items-center justify-center flex">
 				<Button kind="danger">Modify Via Whatsapp</Button>

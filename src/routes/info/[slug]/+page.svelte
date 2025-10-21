@@ -8,7 +8,7 @@
 </script>
 
 <main class="bg-gray-50 min-h-screen pb-16">
-	<div class="max-w-4xl mx-auto pt-5 px-4">
+	<div class="max-w-4xl mx-auto pt-5 px-4 sm:text-lg">
 		<a href="/" class="text-gray-500 hover:underline mb-6 inline-block">Home &gt</a>
 		<a href="/info" class="text-gray-500 hover:underline mb-6 inline-block">Info Desk &gt</a>
 		<a href={post.slug} class="text-red-600 hover:underline mb-6 inline-block">{post.title}</a>
@@ -25,8 +25,8 @@
 					class="w-full h-80 object-cover rounded-lg mb-6 shadow-md"
 				/>
 				<h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-2">{post.title}</h1>
-				<p class="text-gray-500 text-sm mb-8">{post.date}</p>
-				<div class="prose max-w-none text-gray-700 text-lg">{@html post.content}</div>
+				<p class="text-gray-500 text-sm mb-8 sm:text-lg">{post.date}</p>
+				<div class="prose max-w-none text-gray-700 text-lg sm:text-xl">{@html post.content}</div>
 			{/if}
 		</article>
 	</div>

@@ -7,7 +7,7 @@
 	style="background-image: url('https://img.freepik.com/free-photo/close-up-colorful-smoky-abstract_53876-148112.jpg?semt=ais_hybrid&w=740&q=80');"
 >
 	<h1 class="font-semibold">Financial <span class="text-red-700">Services</span></h1>
-	<p class="text-gray-500 text-break-words lg:w-[520px]">
+	<p class="sm:text-xl text-gray-500 text-break-words lg:w-[520px]">
 		Streamlined Payment and salary management solutions for UCTH. Access PayIQue for salary tracking
 		and payslips, or make secure Id card payments through our integrated system.
 	</p>
@@ -41,12 +41,16 @@
 				>
 				<h2 class="font-medium text-2xl">PayIQue System</h2>
 			</div>
-			<p>Complete payment and salary management platform for UUTH staff and personnel.</p>
+			<p class="sm:text-lg">
+				Complete payment and salary management platform for UUTH staff and personnel.
+			</p>
 			<h4 class="font-medium text-xl ml-2">Features:</h4>
 
-			<li>Salary Tracking</li>
-			<li>Digital Payslips</li>
-			<li>Transaction History</li>
+			<div class="flex flex-col gap-3 text-lg">
+				<li>Salary Tracking</li>
+				<li>Digital Payslips</li>
+				<li>Transaction History</li>
+			</div>
 
 			<div class="items-center justify-center flex">
 				<Button>Access PayIQueue</Button>
@@ -57,7 +61,7 @@
 			class="text-start flex flex-col space-y-3 w-[400px] p-8 rounded-md border-4 border-red-500"
 			style="border: 2px solid red;"
 		>
-			<div class="sm:flex items-center gap-4">
+			<div class="sm:flex items-center gap-4 p-4">
 				<svg
 					class="bg-red-500 rounded-md p-2 text-white"
 					xmlns="http://www.w3.org/2000/svg"
@@ -79,12 +83,16 @@
 				>
 				<h2 class="font-medium text-2xl">ID Card Payment</h2>
 			</div>
-			<p>Secure and convenient payment portal for UUTH identication card services.</p>
+			<p class="sm:text-lg">
+				Secure and convenient payment portal for UUTH identication card services.
+			</p>
 			<h4 class="font-medium text-xl ml-2">Features:</h4>
 
-			<li>New ID Card Payment</li>
-			<li>Card Renewal</li>
-			<li>Replacement Cards</li>
+			<div class="flex flex-col gap-3 text-lg">
+				<li>New ID Card Payment</li>
+				<li>Card Renewal</li>
+				<li>Replacement Cards</li>
+			</div>
 
 			<div class="items-center justify-center flex">
 				<Button kind="danger">Make Payment</Button>
