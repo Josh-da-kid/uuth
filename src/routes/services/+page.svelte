@@ -310,7 +310,7 @@
 				</div>
 
 				<div class="mt-4">
-					<button class="  bg-white p-3 text-red-700"
+					<button class="sm:text-lg bg-white p-3 text-red-700"
 						>Get Started <span class="font-semibold">&gt&gt</span></button
 					>
 				</div>
