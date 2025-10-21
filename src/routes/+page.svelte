@@ -4,14 +4,14 @@
 
 <main class="mb-12 bg-gray-100">
 	<section
-		class="md:flex bg-gray-100 w-screen bg-cover bg-center bg-no-repeat py-12"
+		class="md:flex justify-between items-center bg-gray-100 w-screen bg-cover bg-center bg-no-repeat py-12"
 		style="background-image: url('https://img.freepik.com/free-photo/close-up-colorful-smoky-abstract_53876-148112.jpg?semt=ais_hybrid&w=740&q=80');"
 	>
-		<div>
+		<div class="justify-center items-center flex">
 			<img
 				src="https://uniuyo.edu.ng/evoting/images/logonobg.png"
 				alt="University badge icon"
-				class="logo sm:hidden mt-4"
+				class="logo sm:hidden mt-4 h-[250px]"
 			/>
 		</div>
 		<div class="flex flex-col lg:p-32 p-4 gap-4">
@@ -61,7 +61,7 @@
 				<img
 					src="https://images.pexels.com/photos/1181358/pexels-photo-1181358.jpeg?auto=compress&cs=tinysrgb&w=600"
 					alt="CMD Office update"
-					class="rounded-md mb-4"
+					class="rounded-md mb-4 md:h-[230px]"
 				/>
 				<h4 class="font-semibold text-gray-800 text-sm">CMD Office: New Policy Updates.</h4>
 				<p class="text-gray-500 text-sm mt-2">
@@ -76,7 +76,7 @@
 				<img
 					src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=600"
 					alt="ICT Maintenance"
-					class="rounded-md mb-4"
+					class="rounded-md mb-4 md:h-[230px]"
 				/>
 				<h4 class="font-semibold text-gray-800 text-sm">ICT: System Maintenance Notice</h4>
 				<p class="text-gray-500 text-sm mt-2">
@@ -91,7 +91,7 @@
 				<img
 					src="https://images.pexels.com/photos/3183171/pexels-photo-3183171.jpeg?auto=compress&cs=tinysrgb&w=600"
 					alt="HR Staff Training"
-					class="rounded-md mb-4"
+					class="rounded-md mb-4 md:h-[230px]"
 				/>
 				<h4 class="font-semibold text-gray-800 text-sm">HR: Staff Training Program</h4>
 				<p class="text-gray-500 text-sm mt-2">
@@ -154,13 +154,12 @@
 
 				<h6 class="mt-4 text-gray-500">Services:</h6>
 				<div class="flex flex-col items-center justify-center text-gray-500 mt-1 gap-1">
-                    <div class="flex flex-col space-y-2 text-start">
-                        <li>Personnel IDID</li>
-                        <li>SmartHealth IDID</li>
-                        <li>BAAMS(Biometrics)</li>
-                        <li>IPass System</li>
-
-                    </div>
+					<div class="flex flex-col space-y-2 text-start">
+						<li>Personnel IDID</li>
+						<li>SmartHealth IDID</li>
+						<li>BAAMS(Biometrics)</li>
+						<li>IPass System</li>
+					</div>
 				</div>
 
 				<div class="mt-4">
@@ -211,11 +210,11 @@
 
 				<h6 class="mt-4 text-gray-500">PayIQue System:</h6>
 				<div class="flex flex-col items-center justify-center text-gray-500 mt-1 gap-1">
-                    <div class="flex flex-col space-y-2 text-start">
-					<li>Salary Tracking</li>
-					<li>Payslips</li>
-					<li>Payment Managements</li>
-                    </div>
+					<div class="flex flex-col space-y-2 text-start">
+						<li>Salary Tracking</li>
+						<li>Payslips</li>
+						<li>Payment Managements</li>
+					</div>
 				</div>
 
 				<div class="mt-4">
@@ -253,10 +252,10 @@
 
 				<h6 class="mt-4 text-gray-500">Features:</h6>
 				<div class="flex flex-col items-center justify-center text-gray-500 mt-1 gap-1">
-                    <div class="flex flex-col space-y-2 text-start">
-					<li>UCTH Messenger</li>
-					<li>iReport Feedback System</li>
-                    </div>
+					<div class="flex flex-col space-y-2 text-start">
+						<li>UCTH Messenger</li>
+						<li>iReport Feedback System</li>
+					</div>
 				</div>
 
 				<div class="mt-4">
@@ -302,13 +301,13 @@
 
 				<h6 class="mt-4 text-gray-500">Platforms:</h6>
 				<div class="flex flex-col items-center justify-center text-gray-500 mt-1 gap-1">
-                    <div class="flex flex-col space-y-2 text-start">
-					<li>ClinIQx</li>
-					<li>EziBiz</li>
-					<li>iScheduler</li>
+					<div class="flex flex-col space-y-2 text-start">
+						<li>ClinIQx</li>
+						<li>EziBiz</li>
+						<li>iScheduler</li>
 
-					<li>Staff ID Cards</li>
-                    </div>
+						<li>Staff ID Cards</li>
+					</div>
 				</div>
 
 				<div class="mt-4">
