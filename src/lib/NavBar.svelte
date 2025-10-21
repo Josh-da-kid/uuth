@@ -58,12 +58,12 @@
 					href="/contact"
 					class="hover:text-red-700"
 					class:text-red-700={$page.url.pathname === '/contact'}
-					class:text-gray-500={$page.url.pathname !== '/contact'}>Contact Us</a
+					class:text-gray-500={$page.url.pathname !== '/contact'}>Contact</a
 				>
 			</li>
 		</ul>
 	</div>
-	<div class="hidden lg:flex font-semibold text-gray-500 gap-2 items-center sm:text-xl">
+	<div class="hidden lg:flex font-semibold text-gray-500 gap-5 items-center sm:text-xl">
 		<button>Log In</button>
 		<button class="bg-red-700 p-4 text-white">Sign Up</button>
 	</div>
@@ -137,7 +137,7 @@
 						href="/contact"
 						class:text-red-700={$page.url.pathname === '/contact'}
 						class:text-gray-500={$page.url.pathname !== '/contact'}
-						on:click={() => (isMenuOpen = false)}>Contact Us</a
+						on:click={() => (isMenuOpen = false)}>Contact</a
 					>
 				</li>
 				<li class="w-full">
