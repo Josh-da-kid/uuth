@@ -29,7 +29,7 @@
 					</p>
 					<a
 						href={`/info/${post.slug}`}
-						class="text-red-600 text-sm mt-3 inline-block hover:underline">Read More</a
+						class="sm:text-lg text-red-600 text-sm mt-3 inline-block hover:underline">Read More</a
 					>
 				</div>
 			</div>
