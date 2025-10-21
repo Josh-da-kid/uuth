@@ -20,7 +20,7 @@
 
 	<!-- Desktop navigation -->
 	<div class="hidden lg:flex items-center space-x-4">
-		<ul class="flex nav-links space-x-5 font-semibold sm:text-xl">
+		<ul class="flex nav-links space-x-8 font-semibold sm:text-xl">
 			<li>
 				<a
 					href="/"

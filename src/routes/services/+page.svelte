@@ -122,7 +122,7 @@
 
 		<div class="grid md:grid-cols-2 gap-8 lg:px-40 px-6">
 			<!-- Identity & Access -->
-			<div class="bg-red-100/70 shadow-sm rounded-lg p-8 text-center">
+			<div class="bg-red-100/70 shadow-sm rounded-lg p-8 text-center flex flex-col">
 				<div
 					class="flex justify-center items-center w-fit mx-auto p-4 text-center bg-white rounded-lg mb-1"
 				>
@@ -149,19 +149,21 @@
 				<h3 class="font-semibold text-2xl mb-2 flex text-center mx-auto justify-center">
 					Identity & Access
 				</h3>
-				<p class="text-gray-500 text-sm sm:text-xl">Digital identity and access management</p>
+				<div class="flex-grow">
+					<p class="text-gray-500 text-sm sm:text-xl">Digital identity and access management</p>
 
-				<h6 class="mt-4 text-gray-500 sm:text-xl">Services:</h6>
-				<div class="flex flex-col items-center justify-center text-gray-500 mt-1 gap-1">
-					<div class="sm:text-lg flex flex-col space-y-2 text-start">
-						<li>Personnel IDID</li>
-						<li>SmartHealth IDID</li>
-						<li>BAAMS(Biometrics)</li>
-						<li>IPass System</li>
+					<h6 class="mt-4 text-gray-500 sm:text-xl">Services:</h6>
+					<div class="flex flex-col items-center justify-center text-gray-500 mt-1 gap-1">
+						<div class="sm:text-lg flex flex-col space-y-1 text-start">
+							<li>Personnel IDID</li>
+							<li>SmartHealth IDID</li>
+							<li>BAAMS(Biometrics)</li>
+							<li>IPass System</li>
+						</div>
 					</div>
 				</div>
 
-				<div class="mt-4">
+				<div class="mt-6">
 					<a href="/digital-identity">
 						<button class="sm:text-lg bg-white p-3 text-red-700"
 							>Get Started <span class="font-semibold">&gt&gt</span></button
@@ -171,7 +173,7 @@
 			</div>
 
 			<!-- Financial Services -->
-			<div class="bg-red-100/70 shadow-sm rounded-lg p-8 text-center">
+			<div class="bg-red-100/70 shadow-sm rounded-lg p-8 text-center flex flex-col">
 				<div
 					class="flex justify-center items-center w-fit mx-auto p-4 text-center bg-white rounded-lg mb-1"
 				>
@@ -202,21 +204,23 @@
 				<h3 class="font-semibold text-2xl mb-2 flex text-center mx-auto justify-center">
 					Financial Services
 				</h3>
-				<p class="text-gray-500 text-sm sm:text-xl">
-					Manage staff salaries and hospital payments with PayQue — including payslips and salary
-					tracking.
-				</p>
+				<div class="flex-grow">
+					<p class="text-gray-500 text-sm sm:text-xl">
+						Manage staff salaries and hospital payments with PayQue — including payslips and salary
+						tracking.
+					</p>
 
-				<h6 class="mt-4 text-gray-500 sm:text-xl">PayIQue System:</h6>
-				<div class="flex flex-col items-center justify-center text-gray-500 mt-1 gap-1">
-					<div class="sm:text-lg flex flex-col space-y-2 text-start">
-						<li>Salary Tracking</li>
-						<li>Payslips</li>
-						<li>Payment Managements</li>
+					<h6 class="mt-4 text-gray-500 sm:text-xl">PayIQue System:</h6>
+					<div class="flex flex-col items-center justify-center text-gray-500 mt-1 gap-1">
+						<div class="sm:text-lg flex flex-col space-y-1 text-start">
+							<li>Salary Tracking</li>
+							<li>Payslips</li>
+							<li>Payment Managements</li>
+						</div>
 					</div>
 				</div>
 
-				<div class="mt-4">
+				<div class="mt-6">
 					<a href="/financial-services">
 						<button class="sm:text-lg bg-white p-3 text-red-700"
 							>Access PayIQueue <span class="font-semibold">&gt&gt</span></button
@@ -226,7 +230,7 @@
 			</div>
 
 			<!-- Communication Hub -->
-			<div class="bg-red-100/70 shadow-sm rounded-lg p-8 text-center">
+			<div class="bg-red-100/70 shadow-sm rounded-lg p-8 text-center flex flex-col">
 				<div
 					class="flex justify-center items-center w-fit mx-auto p-4 text-center bg-white rounded-lg mb-1"
 				>
@@ -245,19 +249,21 @@
 				<h3 class="font-semibold text-2xl mb-2 flex text-center mx-auto justify-center">
 					Communication Hub
 				</h3>
-				<p class="sm:text-xl text-gray-500 text-sm">
-					Internal messaging and feedback systems powered by UUTH Messenger and iReport.
-				</p>
+				<div class="flex-grow">
+					<p class="sm:text-xl text-gray-500 text-sm">
+						Internal messaging and feedback systems powered by UUTH Messenger and iReport.
+					</p>
 
-				<h6 class="sm:text-xl mt-4 text-gray-500">Features:</h6>
-				<div class="flex flex-col items-center justify-center text-gray-500 mt-1 gap-1">
-					<div class="sm:text-lg flex flex-col space-y-2 text-start">
-						<li>UCTH Messenger</li>
-						<li>iReport Feedback System</li>
+					<h6 class="sm:text-xl mt-4 text-gray-500">Features:</h6>
+					<div class="flex flex-col items-center justify-center text-gray-500 mt-1 gap-1">
+						<div class="sm:text-lg flex flex-col space-y-1 text-start">
+							<li>UCTH Messenger</li>
+							<li>iReport Feedback System</li>
+						</div>
 					</div>
 				</div>
 
-				<div class="mt-4">
+				<div class="mt-6">
 					<button class="sm:text-lg bg-white p-3 text-red-700"
 						>Connect Now <span class="font-semibold">&gt&gt</span></button
 					>
@@ -265,7 +271,7 @@
 			</div>
 
 			<!-- Clinical & Operations -->
-			<div class="bg-red-100/70 shadow-sm rounded-lg p-8 text-center">
+			<div class="bg-red-100/70 shadow-sm rounded-lg p-8 text-center flex flex-col">
 				<div
 					class="flex justify-center items-center w-fit mx-auto p-4 text-center bg-white rounded-lg mb-1"
 				>
@@ -293,23 +299,25 @@
 				<h3 class="font-semibold text-2xl mb-2 flex text-center mx-auto justify-center">
 					Clinical & Operations
 				</h3>
-				<p class="sm:text-xl text-gray-500 text-sm">
-					Optimized tools for hospital operations and clinical systems — ClinQx, EziBiz, iScheduler,
-					and more.
-				</p>
+				<div class="flex-grow">
+					<p class="sm:text-xl text-gray-500 text-sm">
+						Optimized tools for hospital operations and clinical systems — ClinQx, EziBiz,
+						iScheduler, and more.
+					</p>
 
-				<h6 class="mt-4 text-gray-500 sm:text-xl">Platforms:</h6>
-				<div class="flex flex-col items-center justify-center text-gray-500 mt-1 gap-1">
-					<div class="sm:text-lg flex flex-col space-y-2 text-start">
-						<li>ClinIQx</li>
-						<li>EziBiz</li>
-						<li>iScheduler</li>
+					<h6 class="mt-4 text-gray-500 sm:text-xl">Platforms:</h6>
+					<div class="flex flex-col items-center justify-center text-gray-500 mt-1 gap-1">
+						<div class="sm:text-lg flex flex-col space-y-1 text-start">
+							<li>ClinIQx</li>
+							<li>EziBiz</li>
+							<li>iScheduler</li>
 
-						<li>Staff ID Cards</li>
+							<li>Staff ID Cards</li>
+						</div>
 					</div>
 				</div>
 
-				<div class="mt-4">
+				<div class="mt-6">
 					<button class="sm:text-lg bg-white p-3 text-red-700"
 						>Get Started <span class="font-semibold">&gt&gt</span></button
 					>
@@ -317,43 +325,6 @@
 			</div>
 		</div>
 	</section>
-
-	<!-- Connect with YOUreka Section -->
-	<!-- <section
-		class="border-2 border-red-700 py-16 bg-white flex flex-col lg:flex-row items-center justify-between px-8 lg:px-32 gap-8"
-	>
-		<div class="max-w-lg">
-			<div class="w-fit p-4 bg-blue-500/30 rounded-lg mb-1">
-				<svg
-					class="text-red-700"
-					xmlns="http://www.w3.org/2000/svg"
-					width="45"
-					height="45"
-					viewBox="0 0 24 24"
-					><g fill="none"
-						><path
-							d="m12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z"
-						/><path
-							fill="currentColor"
-							d="m17.303 9.524l3.182 3.182a5.5 5.5 0 1 1-7.778 7.778l-1.06-1.06a1.5 1.5 0 1 1 2.12-2.122l1.062 1.061a2.5 2.5 0 0 0 3.535-3.536l-3.182-3.182a2.5 2.5 0 0 0-2.681-.56q-.242.096-.454.196l-.464.217c-.62.28-1.097.4-1.704-.206c-.872-.872-.646-1.677.417-2.41a5.5 5.5 0 0 1 7.007.642m-6.01-6.01l1.06 1.06a1.5 1.5 0 0 1-2.12 2.122l-1.061-1.06A2.5 2.5 0 1 0 5.636 9.17l3.182 3.182a2.5 2.5 0 0 0 2.681.56q.242-.096.454-.196l.464-.217c.62-.28 1.098-.4 1.704.206c.872.872.646 1.677-.417 2.41a5.5 5.5 0 0 1-7.007-.642l-3.182-3.182a5.5 5.5 0 1 1 7.778-7.778Z"
-						/></g
-					></svg
-				>
-			</div>
-			<h3 class="font-semibold text-lg mb-2">Connect with YOUreka</h3>
-			<p class="text-gray-500 text-sm mb-4">
-				Establish a secure YOUreka integrated single-sign-on system for seamless access to all
-				services through one account.
-			</p>
-			<Button kind="danger">Contact Us →</Button>
-		</div>
-
-		<img
-			src="https://images.pexels.com/photos/3184305/pexels-photo-3184305.jpeg?auto=compress&cs=tinysrgb&w=800"
-			alt="Happy hospital staff"
-			class="w-full lg:w-[380px] shadow-md"
-		/>
-	</section> -->
 
 	<section class="items-center text-center justify-center p-4 py-8 gap-5 flex flex-col">
 		<h2 class="font-semibold">Ready to Revotionalize Healthcare?</h2>

@@ -62,19 +62,21 @@
 
 		<div class="grid md:grid-cols-3 gap-6 justify-center px-4 lg:px-20">
 			{#each data.posts as post}
-				<div class="bg-gray-50 rounded-lg shadow-sm p-4 text-left">
+				<div class="bg-gray-50 rounded-lg shadow-sm p-4 text-left flex flex-col">
 					<img
 						src={post.image}
 						alt={post.alt}
 						class="rounded-md mb-4 w-full object-cover md:h-[230px]"
 					/>
-					<h4 class="font-semibold text-gray-800 sm:text-2xl">{post.title}</h4>
-					<p class="text-gray-500 mt-2 sm:text-xl">
-						{post.excerpt}
-					</p>
+					<div class="flex-grow">
+						<h4 class="font-semibold text-gray-800 sm:text-2xl">{post.title}</h4>
+						<p class="text-gray-500 mt-2 sm:text-xl">
+							{post.excerpt}
+						</p>
+					</div>
 					<a
 						href={`/info/${post.slug}`}
-						class="text-red-600 sm:text-lg mt-2 inline-block hover:underline">Read More</a
+						class="text-red-600 sm:text-lg mt-4 inline-block hover:underline">Read More</a
 					>
 				</div>
 			{/each}
@@ -101,7 +103,7 @@
 
 		<div class="grid md:grid-cols-2 gap-8 lg:px-40 px-6">
 			<!-- Identity & Access -->
-			<div class="bg-red-100/70 shadow-sm rounded-lg p-8 text-center">
+			<div class="bg-red-100/70 shadow-sm rounded-lg p-8 text-center flex flex-col">
 				<div
 					class="flex justify-center items-center w-fit mx-auto p-4 text-center bg-white rounded-lg mb-1"
 				>
@@ -128,19 +130,21 @@
 				<h3 class="font-semibold text-2xl mb-2 flex text-center mx-auto justify-center">
 					Identity & Access
 				</h3>
-				<p class="text-gray-500 text-sm sm:text-xl">Digital identity and access management</p>
+				<div class="flex-grow">
+					<p class="text-gray-500 text-sm sm:text-xl">Digital identity and access management</p>
 
-				<h6 class="mt-4 text-gray-500 sm:text-xl">Services:</h6>
-				<div class="flex flex-col items-center justify-center text-gray-500 mt-1 gap-1">
-					<div class="sm:text-lg flex flex-col space-y-2 text-start">
-						<li>Personnel IDID</li>
-						<li>SmartHealth IDID</li>
-						<li>BAAMS(Biometrics)</li>
-						<li>IPass System</li>
+					<h6 class="mt-4 text-gray-500 sm:text-xl">Services:</h6>
+					<div class="flex flex-col items-center justify-center text-gray-500 mt-1 gap-1">
+						<div class="sm:text-lg flex flex-col space-y-1 text-start">
+							<li>Personnel IDID</li>
+							<li>SmartHealth IDID</li>
+							<li>BAAMS(Biometrics)</li>
+							<li>IPass System</li>
+						</div>
 					</div>
 				</div>
 
-				<div class="mt-4">
+				<div class="mt-6">
 					<a href="/digital-identity">
 						<button class="sm:text-lg bg-white p-3 text-red-700"
 							>Get Started <span class="font-semibold">&gt&gt</span></button
@@ -150,7 +154,7 @@
 			</div>
 
 			<!-- Financial Services -->
-			<div class="bg-red-100/70 shadow-sm rounded-lg p-8 text-center">
+			<div class="bg-red-100/70 shadow-sm rounded-lg p-8 text-center flex flex-col">
 				<div
 					class="flex justify-center items-center w-fit mx-auto p-4 text-center bg-white rounded-lg mb-1"
 				>
@@ -181,21 +185,23 @@
 				<h3 class="font-semibold text-2xl mb-2 flex text-center mx-auto justify-center">
 					Financial Services
 				</h3>
-				<p class="text-gray-500 text-sm sm:text-xl">
-					Manage staff salaries and hospital payments with PayQue — including payslips and salary
-					tracking.
-				</p>
+				<div class="flex-grow">
+					<p class="text-gray-500 text-sm sm:text-xl">
+						Manage staff salaries and hospital payments with PayQue — including payslips and salary
+						tracking.
+					</p>
 
-				<h6 class="mt-4 text-gray-500 sm:text-xl">PayIQue System:</h6>
-				<div class="flex flex-col items-center justify-center text-gray-500 mt-1 gap-1">
-					<div class="sm:text-lg flex flex-col space-y-2 text-start">
-						<li>Salary Tracking</li>
-						<li>Payslips</li>
-						<li>Payment Managements</li>
+					<h6 class="mt-4 text-gray-500 sm:text-xl">PayIQue System:</h6>
+					<div class="flex flex-col items-center justify-center text-gray-500 mt-1 gap-1">
+						<div class="sm:text-lg flex flex-col space-y-1 text-start">
+							<li>Salary Tracking</li>
+							<li>Payslips</li>
+							<li>Payment Managements</li>
+						</div>
 					</div>
 				</div>
 
-				<div class="mt-4">
+				<div class="mt-6">
 					<a href="/financial-services">
 						<button class="sm:text-lg bg-white p-3 text-red-700"
 							>Access PayIQueue <span class="font-semibold">&gt&gt</span></button
@@ -205,7 +211,7 @@
 			</div>
 
 			<!-- Communication Hub -->
-			<div class="bg-red-100/70 shadow-sm rounded-lg p-8 text-center">
+			<div class="bg-red-100/70 shadow-sm rounded-lg p-8 text-center flex flex-col">
 				<div
 					class="flex justify-center items-center w-fit mx-auto p-4 text-center bg-white rounded-lg mb-1"
 				>
@@ -224,19 +230,21 @@
 				<h3 class="font-semibold text-2xl mb-2 flex text-center mx-auto justify-center">
 					Communication Hub
 				</h3>
-				<p class="sm:text-xl text-gray-500 text-sm">
-					Internal messaging and feedback systems powered by UUTH Messenger and iReport.
-				</p>
+				<div class="flex-grow">
+					<p class="sm:text-xl text-gray-500 text-sm">
+						Internal messaging and feedback systems powered by UUTH Messenger and iReport.
+					</p>
 
-				<h6 class="sm:text-xl mt-4 text-gray-500">Features:</h6>
-				<div class="flex flex-col items-center justify-center text-gray-500 mt-1 gap-1">
-					<div class="sm:text-lg flex flex-col space-y-2 text-start">
-						<li>UCTH Messenger</li>
-						<li>iReport Feedback System</li>
+					<h6 class="sm:text-xl mt-4 text-gray-500">Features:</h6>
+					<div class="flex flex-col items-center justify-center text-gray-500 mt-1 gap-1">
+						<div class="sm:text-lg flex flex-col space-y-1 text-start">
+							<li>UCTH Messenger</li>
+							<li>iReport Feedback System</li>
+						</div>
 					</div>
 				</div>
 
-				<div class="mt-4">
+				<div class="mt-6">
 					<button class="sm:text-lg bg-white p-3 text-red-700"
 						>Connect Now <span class="font-semibold">&gt&gt</span></button
 					>
@@ -244,7 +252,7 @@
 			</div>
 
 			<!-- Clinical & Operations -->
-			<div class="bg-red-100/70 shadow-sm rounded-lg p-8 text-center">
+			<div class="bg-red-100/70 shadow-sm rounded-lg p-8 text-center flex flex-col">
 				<div
 					class="flex justify-center items-center w-fit mx-auto p-4 text-center bg-white rounded-lg mb-1"
 				>
@@ -272,23 +280,24 @@
 				<h3 class="font-semibold text-2xl mb-2 flex text-center mx-auto justify-center">
 					Clinical & Operations
 				</h3>
-				<p class="sm:text-xl text-gray-500 text-sm">
-					Optimized tools for hospital operations and clinical systems — ClinQx, EziBiz, iScheduler,
-					and more.
-				</p>
+				<div class="flex-grow">
+					<p class="sm:text-xl text-gray-500 text-sm">
+						Optimized tools for hospital operations and clinical systems — ClinQx, EziBiz,
+						iScheduler, and more.
+					</p>
 
-				<h6 class="mt-4 text-gray-500 sm:text-xl">Platforms:</h6>
-				<div class="flex flex-col items-center justify-center text-gray-500 mt-1 gap-1">
-					<div class="sm:text-lg flex flex-col space-y-2 text-start">
-						<li>ClinIQx</li>
-						<li>EziBiz</li>
-						<li>iScheduler</li>
-
-						<li>Staff ID Cards</li>
+					<h6 class="mt-4 text-gray-500 sm:text-xl">Platforms:</h6>
+					<div class="flex flex-col items-center justify-center text-gray-500 mt-1 gap-1">
+						<div class="sm:text-lg flex flex-col space-y-1 text-start">
+							<li>ClinIQx</li>
+							<li>EziBiz</li>
+							<li>iScheduler</li>
+							<li>Staff ID Cards</li>
+						</div>
 					</div>
 				</div>
 
-				<div class="mt-4">
+				<div class="mt-6">
 					<button class="sm:text-lg bg-white p-3 text-red-700"
 						>Get Started <span class="font-semibold">&gt&gt</span></button
 					>

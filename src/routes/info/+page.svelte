@@ -19,17 +19,21 @@
 	<!-- News Cards Section -->
 	<section class="grid md:grid-cols-2 lg:grid-cols-2 gap-8 px-6 lg:px-32 mt-10">
 		{#each data.posts as post}
-			<div class="bg-white shadow-sm rounded-lg overflow-hidden hover:shadow-md transition">
+			<div
+				class="bg-white shadow-sm rounded-lg overflow-hidden hover:shadow-md transition flex flex-col"
+			>
 				<img src={post.image} alt={post.alt} class="w-full h-56 object-cover" />
-				<div class="p-6">
-					<p class="text-sm text-gray-400 mb-2">{post.date}</p>
-					<h3 class="font-semibold text-gray-800 sm:text-xl text-lg">{post.title}</h3>
-					<p class="text-gray-500 text-sm mt-2 sm:text-lg">
-						{post.excerpt}
-					</p>
+				<div class="p-6 flex flex-col flex-grow">
+					<div class="flex-grow">
+						<p class="text-sm text-gray-400 mb-2">{post.date}</p>
+						<h3 class="font-semibold text-gray-800 sm:text-xl text-lg">{post.title}</h3>
+						<p class="text-gray-500 text-sm mt-2 sm:text-lg">
+							{post.excerpt}
+						</p>
+					</div>
 					<a
 						href={`/info/${post.slug}`}
-						class="sm:text-lg text-red-600 text-sm mt-3 inline-block hover:underline">Read More</a
+						class="sm:text-lg text-red-600 text-sm mt-4 inline-block hover:underline">Read More</a
 					>
 				</div>
 			</div>
